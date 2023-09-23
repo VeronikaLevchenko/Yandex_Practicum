@@ -7,7 +7,7 @@ SELECT COUNT(status)
 FROM company
 WHERE status = 'closed'
 2. Отобразили количество привлечённых средств для новостных компаний США (из таблицы company) и отсортировали таблицу по убыванию значений в поле funding_total.
-SELECT funding_total
+   SELECT funding_total
 FROM company
 WHERE category_code = 'news'
 AND country_code = 'USA'
